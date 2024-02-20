@@ -25,6 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wipro from "./company/wipro.png";
+import cisco from "./company/cisco.png";
+import kharidi from "./kharidi.png";
+import strack from "./strack.png";
+import pathFinder from "./pathFinder.mp4";
+import willow from "./willow.mp4";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,6 +58,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  wipro,
+  cisco,
+  kharidi,
+  strack,
+  pathFinder,
+  willow,
   meta,
   shopify,
   starbucks,

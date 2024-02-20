@@ -15,10 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  cisco,
+  wipro,
+  kharidi,
+  strack,
+  pathFinder,
+  willow,
   carrent,
   jobit,
   tripguide,
@@ -116,55 +118,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Project Engineer",
+    company_name: "Wipro",
+    icon: wipro,
+    iconBg: "white",
+    date: "Jun 2019 - Aug 2022",
+    points: ["Was trained on python technologies and worked for Cisco Client"],
+  },
+  {
     title: "Software Engineer",
-    company_name: "Cisco",
-    icon: starbucks,
+    company_name: "Cisco DevNet (through Wipro)",
+    icon: cisco,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2019 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented automation testing for IP phones in the Cisco DevNet project.",
+      "Conducted unit testing on Cisco Unified Call Manager APIs using Python and generated detailed HTML reports for test results.",
+      "Created sample code snippets to facilitate the implementation of Cisco Unified Call Manager APIs.",
+      "Offered developer support for Cisco Unified Call Manager APIs within the Collaboration related APIs, resolving integration errors in client codes.",
+      "Handled high priority tickets with customers and collaborated with multiple teams and engineers across the globe to handle critical customer needs.",
+      "Proficient in troubleshooting simple and complex CUCM API integration issues, achieving a satisfaction rate of over 95%.",
+      "Analyzed client network logs to identify errors and provided effective solutions for integration issues.",
+      "Worked extensively with XML/JSON data, TCP/IP protocols, VoIP Phones, REST APIs, SOAP APIs, Session Initiation Protocols (SIP), UDP, and SDP.",
     ],
   },
 ];
@@ -198,12 +173,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Strack - productiviy app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created a react native app to manage time and expenses using react native, javascript, mongoDB, node.js, python ML model.",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
@@ -211,33 +186,34 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "python",
+        color: "yellow-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: strack,
+    source_code_link:
+      "https://www.figma.com/file/zHD24kqGj2IZT5ARxj3AcB/%24Track?type=design&node-id=0%3A1&mode=design&t=yvSc3vK9QCnaXKkQ-1",
   },
   {
-    name: "Job IT",
+    name: "Pathfinder Visualizer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built a react web page for finding the shortest path between two nodes using dijkstra's algorithm.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pathFinder,
+    source_code_link: "https://github.com/HarshaSiriki/pathfinder",
   },
   {
     name: "Trip Guide",
