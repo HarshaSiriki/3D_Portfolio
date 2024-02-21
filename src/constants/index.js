@@ -173,6 +173,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Willow",
+    description:
+      "Created a simple nft project where a seller can list properties and then a inspector can approve, lender can lend some of the amount for the buyer and the buyer can buy the property",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: willow,
+    source_code_link: "https://github.com/HarshaSiriki/willow",
+  },
+  {
     name: "Strack - productiviy app",
     description:
       "Created a react native app to manage time and expenses using react native, javascript, mongoDB, node.js, python ML model.",
@@ -216,16 +237,16 @@ const projects = [
     source_code_link: "https://github.com/HarshaSiriki/pathfinder",
   },
   {
-    name: "Trip Guide",
+    name: "Kharidi",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I have created this website whilst learning react development. It has couple of products which can be added to cart to purchase and delete if needed. Simple implementation of a e commerce website. A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -233,8 +254,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: kharidi,
+    source_code_link: "https://github.com/HarshaSiriki/Kharidi",
   },
 ];
 
